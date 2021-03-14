@@ -20,13 +20,24 @@ namespace interface_example_Grishenko
         // money increase statistic
         public statistic()
         {
-
+        	if (art > 3)
+        	{
+        		table.add(statistic[1]);
+        	}
+        	else
+        	{
+        		table.add(statistic[2]);
+        	}
         }
 
         // add money increase operation
         public add()
         {
-
+        	foreach(int s in statistic[5])
+        	{
+        		int g = 0;
+        		s + g;
+        	}
         }
 
     }
