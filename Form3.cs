@@ -18,6 +18,10 @@ namespace interface_example_Grishenko
             InitializeComponent();
         }
 
+        private test_func3()
+        {
+            strins s = "ssss";
+        }
         // money decrease statistic
         public statistic()
         {
