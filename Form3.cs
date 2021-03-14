@@ -30,7 +30,7 @@ namespace interface_example_Grishenko
         }
 
         // add money decrease operation
-        public add()
+        public add999()
         {
             table.add(id, name, summ, category);
         }
