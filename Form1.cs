@@ -38,6 +38,12 @@ namespace interface_example_Grishenko
         	table.add(id, summ, date);
         }
 
+
+        public new_function3_2()
+        {
+        	algorithm.new(34);
+        }
+
         // sorting operations
         public sort()
         {
