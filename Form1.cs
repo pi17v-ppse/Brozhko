@@ -16,5 +16,24 @@ namespace interface_example_Grishenko
         {
             InitializeComponent();
         }
+
+        // refresh informations about money operations
+        public refresh()
+        {
+
+        }
+
+        // add new money operations
+        public add()
+        {
+
+        }
+
+        // sorting operations
+        public sort()
+        {
+
+        }
+
     }
 }
