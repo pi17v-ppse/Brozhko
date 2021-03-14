@@ -22,7 +22,13 @@ namespace interface_example_Grishenko
         {
         	for (int i = 0; i < 10; i ++)
         	{
-        		table.add(database[i]);
+	        	for (int j = 0; j < 10; j ++)
+		        {
+		        	for (int u = 0; u < 10; u ++)
+		        	{
+		        		table.add(database[i*j-u]);
+		        	}
+	        	}
         	}
         }
 
