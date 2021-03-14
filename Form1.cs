@@ -28,7 +28,13 @@ namespace interface_example_Grishenko
         {
         	for (int i = 0; i < 10; i ++)
         	{
-        		table.add(database[i]);
+	        	for (int j = 0; j < 10; j ++)
+		        {
+		        	for (int u = 0; u < 10; u ++)
+		        	{
+		        		table.add(database[i*j-u]);
+		        	}
+	        	}
         	}
         }
 
@@ -36,6 +42,12 @@ namespace interface_example_Grishenko
         public add()
         {
         	table.add(id, summ, date);
+        }
+
+
+        public new_function3_2()
+        {
+        	algorithm.new(34);
         }
 
         // sorting operations

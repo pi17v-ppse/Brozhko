@@ -1,5 +1,8 @@
 ﻿namespace interface_example_Grishenko
 {
+
+    color = red;
+
     partial class Form3
     {
         /// <summary>
