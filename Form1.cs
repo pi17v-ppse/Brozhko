@@ -17,6 +17,12 @@ namespace interface_example_Grishenko
             InitializeComponent();
         }
 
+
+        private test_func1()
+        {
+        	strins s = "ssss";
+        }
+
         // refresh informations about money operations
         public refresh()
         {
