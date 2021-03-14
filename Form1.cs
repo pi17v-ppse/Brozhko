@@ -10,6 +10,20 @@ using System.Windows.Forms;
 
 namespace interface_example_Grishenko
 {
+
+	public class user
+	{
+		string name;
+		int id;
+		List<string> user_info;
+
+		public rename(string new_name)
+		{
+			name = new_name;
+		}
+
+	}
+
     public partial class Form1 : Form
     {
         public Form1()
