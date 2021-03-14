@@ -16,5 +16,18 @@ namespace interface_example_Grishenko
         {
             InitializeComponent();
         }
+
+        // money increase statistic
+        public statistic()
+        {
+
+        }
+
+        // add money increase operation
+        public add()
+        {
+
+        }
+
     }
 }
