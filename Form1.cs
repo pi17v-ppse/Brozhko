@@ -24,7 +24,7 @@ namespace interface_example_Grishenko
         }
 
         // refresh informations about money operations
-        public refresh()
+        public refresh222()
         {
         	for (int i = 0; i < 10; i ++)
         	{
