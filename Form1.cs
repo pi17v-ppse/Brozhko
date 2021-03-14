@@ -20,19 +20,22 @@ namespace interface_example_Grishenko
         // refresh informations about money operations
         public refresh()
         {
-
+        	for (int i = 0; i < 10; i ++)
+        	{
+        		table.add(database[i]);
+        	}
         }
 
         // add new money operations
         public add()
         {
-
+        	table.add(id, summ, date);
         }
 
         // sorting operations
         public sort()
         {
-
+        	table.sort;
         }
 
     }
