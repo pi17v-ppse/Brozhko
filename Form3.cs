@@ -21,13 +21,14 @@ namespace interface_example_Grishenko
         // money decrease statistic
         public statistic()
         {
-
+            table.sqlquery("select * from operations");
+            table.add(query);
         }
 
         // add money decrease operation
         public add()
         {
-
+            table.add(id, name, summ, category);
         }
     }
 }
