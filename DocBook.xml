@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="ru">                                        
+    <title>Контролёр расходов и доходов</title>
+    <sect1>
+        <title>Описание приложения</title>
+        <para>
+            Приложение позволяет пользователю следить за статьями расходов и доходов.
+            Пользователь может прасматривать все операции доходов и расходов, просматривать статистические данные.
+            ПОльзователь может просматривать на главной форме недавние операции доходов и расходов.
+        </para>
+        <para>
+            В приложении имеются вкладки для переключения между главной страницей, страницей с
+            доходами и страницей с расходами, страницей общей статистики и страницами статистики 
+            расходов и доходов.
+        </para>
+        <para>
+            В приложении пользователь может видеть все денежные операции, сумму операций, дату операций,
+            категории операций, среди который есть следующие:            
+        </para>
+        <orderedlist>
+            <listitem>
+                <para>Авто</para>
+            </listitem>
+            <listitem>
+                <para>Питание</para>
+            </listitem>
+            <listitem>
+                <para>Медицина</para>
+            </listitem>
+            <listitem>
+                <para>Развлечения</para>
+            </listitem>
+            <listitem>
+                <para>Одежда</para>
+            </listitem>
+            <listitem>
+                <para>Дети</para>
+            </listitem>
+          </orderedlist> 
+    </sect1>
+    <sect1>
+        <title>Скриншоты приложения</title>
+        <figure>
+            <title>Главная форма</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="Properties/mainpage.jpg" width="700"/>
+                </imageobject>
+            </mediaobject>
+        </figure>
+        
+        <figure>
+            <title>Форма статистики</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="Properties/stat.jpg" width="700" />
+                </imageobject>
+            </mediaobject>
+        </figure>
+    </sect1>
+<sect1>
+    <title>Пример кода</title>
+    <para>
+        <example>
+            <title></title>
+            <para>
+                <programlisting>
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1090, 620);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F,
+            System.Drawing.FontStyle.Regular, 
+            System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.Name = "Form3";
+            this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).
+            EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).
+            EndInit();
+            this.ResumeLayout(false);
+                 </programlisting>
+            </para>
+        </example>  
+    </para>
+</sect1>
+</chapter>
